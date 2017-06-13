@@ -1,1 +1,24 @@
-media.css
+@media (min-width: 1051px) and (max-width: 1280px){
+	body{
+		background-image: url(../img/landscape.jpg);
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 551px) and (max-width: 1050px){
+	body{
+		background-image: url(../img/dawn.png);
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+@media (min-width: 1px) and (max-width: 550px){
+	body{
+		background-image: url(../img/maxresdefault.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+}

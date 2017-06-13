@@ -1,1 +1,18 @@
-main.css
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+}
+
+.catito{
+	position: absolute;
+	top: 250px;
+}
